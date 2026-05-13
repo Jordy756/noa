@@ -10,9 +10,13 @@ export default defineConfig({
       title: 'Docs with Tailwind',
       defaultLocale: 'en',
       locales: {
-        // English docs in `src/content/docs/en/`
         en: {
           label: 'English',
+          lang: 'en',
+        },
+        es: {
+          label: 'Español',
+          lang: 'es',
         },
       },
       social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
